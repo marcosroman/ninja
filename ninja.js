@@ -11,7 +11,8 @@ class Ninja {
 	}
 
 	showStats() {
-			console.log(this);
+		//console.log(this);
+		console.log("Nombre: "+this.nombre+", Salud: "+this.salud+", Velocidad: "+this.velocidad+", Fuerza: "+this.fuerza);
 	}
 
 	drinkSake() {
