@@ -25,3 +25,18 @@ const ninja1 = new Ninja("Hyabusa");
 ninja1.sayName();
 ninja1.showStats();
 
+
+class Sensei extends Ninja {
+	constructor(nombre) {
+		super(nombre);
+		this.salud = 200;
+		this.velocidad = 10;
+		this.fuerza = 10;
+		this.sabiduria = 10;
+	}
+
+	speakWisdom() {
+		drinkSake();
+		console.log("some pseudozen bs");
+	}
+}
